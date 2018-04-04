@@ -282,7 +282,6 @@ println(numb)                                     //> 3
                                                   //| 15
                                                   //| 18
 }
-val numbers = List.range(1,21)                    //> numbers  : List[Int] = List(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 
-                                                  //| 15, 16, 17, 18, 19, 20)
-val numbersFiltered = numbers.filter(_ %3 ==0)    //> numbersFiltered  : List[Int] = List(3, 6, 9, 12, 15, 18)
+val numbers = List.range(1,21)
+val numbersFiltered = numbers.filter(_ %3 ==0)
 }
